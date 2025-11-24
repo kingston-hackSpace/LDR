@@ -18,17 +18,25 @@ LDRs are great for:
 - Creative triggers (e.g., interactive installations reacting to light or shadow)
 
 # TUTORIAL
+Turn an LED on/off based on brightness
 
-### HARDWARE
 ----
-
+### HARDWARE
 - ARDUINO UNO
 - LDR
 - LED
 - Resistor 220ohms (x1)
+
+----
+### WIRING
+
+----
+### CODE
+
   
 ----
 ### MORE INFO
-----
 https://arduinoyard.com/ldr-with-arduino/
+
+https://www.circuitbasics.com/pairing-a-light-dependent-resistor-ldr-with-an-arduino-uno/ 
 
