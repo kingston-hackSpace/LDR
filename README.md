@@ -30,6 +30,8 @@ Turn an LED on/off based on environmental brightness using an LDR.
 ----
 ### WIRING
 
+Reference diagram [here](https://github.com/kingston-hackSpace/LDR/blob/main/Diagram.png)
+
 ----
 ### CODE
 
