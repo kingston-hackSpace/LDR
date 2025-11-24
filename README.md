@@ -35,6 +35,7 @@ Reference diagram [here](https://github.com/kingston-hackSpace/LDR/blob/main/Dia
 ----
 ### CODE
 
+Download code [here](https://github.com/kingston-hackSpace/LDR/blob/main/LDR.ino)
   
 ----
 ### MORE INFO
