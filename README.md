@@ -18,7 +18,7 @@ LDRs are great for:
 - Creative triggers (e.g., interactive installations reacting to light or shadow)
 
 # TUTORIAL
-Turn an LED on/off based on brightness
+Turn an LED on/off based on environmental brightness using an LDR.
 
 ----
 ### HARDWARE
