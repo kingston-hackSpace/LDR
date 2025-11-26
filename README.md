@@ -25,7 +25,8 @@ Turn an LED on/off based on environmental brightness using an LDR.
 - ARDUINO UNO
 - LDR
 - LED
-- Resistor 220ohms (x2)
+- Resistor 220 ohms
+- Resistor 2.2K ohms
 
 ----
 ### WIRING
