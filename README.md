@@ -30,13 +30,40 @@ Turn an LED on/off based on environmental brightness using an LDR.
 ----
 ### WIRING
 
+<img src="diagram_LDR_bb.jpg" width="600">
 
+Click on image to expand
 
 ----
 ### CODE
 
-Download code [here](https://github.com/kingston-hackSpace/LDR/blob/main/LDR.ino)
-  
+- Upload the following code to your Arduino Uno board
+
+```
+#define LDR A0 
+#define LED 3 
+#define Threshold 50 
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(LED, OUTPUT);
+}
+
+void loop() {
+  int LDR_Values = analogRead(LDR);
+  Serial.println(LDR_Values); //monitor readings 0-1023
+
+  if (LDR_Values < Threshold){
+    digitalWrite(LED, HIGH);
+  } else {
+    digitalWrite(LED, LOW);
+  }
+}
+```
+
+- Open the Serial Monitor to visualize the upcoming numbers, this will help you identify if you need to change your Threshold. 
+
+
 ----
 ### MORE INFO
 https://arduinoyard.com/ldr-with-arduino/
