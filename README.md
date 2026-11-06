@@ -66,7 +66,7 @@ void loop() {
 ----
 ### DEBUGGING
 
-- If your Serial Monitor is not printing anything, or it is printing weird numbers, make sure the BAUD rate is set to (9600). This is to stablish a speed communication between your computer and the Arduino board. 
+- If your Serial Monitor is showing nothing, or printing strange symbols, check that the baud rate in the Serial Monitor is set to 9600, to match Serial.begin(9600) in the code. The baud rate sets the communication speed between your computer and the Arduino, so both sides must use the same value. See reference image here.
 
 - This tutorial is for LDR, which is different than [photodiodes or phototransistors](https://mechatrofice.com/electronics/ldr-vs-photodiode-vs-phototransistor-comparison). Make sure you are using an LDR and not another component. Read more about them in the previous link. 
 
