@@ -35,7 +35,7 @@ Turn an LED on/off based on environmental brightness using an LDR.
 Click on image to expand
 
 ----
-### CODE
+### CODE and INSTRUCTIONS
 
 - Upload the following code to your Arduino Uno board
 
@@ -63,10 +63,18 @@ void loop() {
 
 - Open the Serial Monitor to visualize the upcoming numbers, this will help you identify if you need to change your Threshold. 
 
+----
+### DEBUGGING
+
+- If your Serial Monitor is not printing anything, or it is printing weird numbers, make sure the BAUD rate is set to (9600). This is to stablish a speed communication between your computer and the Arduino board. 
+
+- This tutorial is for LDR, which is different than [photodiodes or phototransistors](https://mechatrofice.com/electronics/ldr-vs-photodiode-vs-phototransistor-comparison). Make sure you are using an LDR and not another component. Read more about them in the previous link. 
 
 ----
 ### MORE INFO
 https://arduinoyard.com/ldr-with-arduino/
 
 https://www.circuitbasics.com/pairing-a-light-dependent-resistor-ldr-with-an-arduino-uno/ 
+
+
 
