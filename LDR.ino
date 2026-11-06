@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   int LDR_Values = analogRead(LDR);
-  Serial.println(LDR_Values); //monitor readings
+  Serial.println(LDR_Values); //monitor readings 0-1023
 
   if (LDR_Values < Threshold){
     digitalWrite(LED, HIGH);
