@@ -3,7 +3,7 @@
 A photoResistor –also called a Light Dependant Resistor (LDR)– it’s a variable resistor whose resistance changes based on the amount of light hitting it.
 
 WARNING!
-An LDR does not measure lux (precise light intensity). It only gives a relative light level.
+An LDR does not measure lux (precise light intensity). It only gives a relative light level. To measure lumens, [see this tutorial instead](https://github.com/kingston-hackSpace/Light_sensor_BH1750)
 
 ### HOW IT WORKS
 
@@ -25,13 +25,12 @@ Turn an LED on/off based on environmental brightness using an LDR.
 - ARDUINO UNO
 - LDR
 - LED
-- Resistor 220 ohms
-- Resistor 2.2K ohms
+- Resistor 220 ohms (x2)
 
 ----
 ### WIRING
 
-Reference diagram [here](https://github.com/kingston-hackSpace/LDR/blob/main/Diagram.png)
+
 
 ----
 ### CODE
