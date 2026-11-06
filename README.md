@@ -1,5 +1,7 @@
 # Photo-Resistor (LDR) 
 
+<img src="ldr.jpg" width="400">
+
 A photoResistor –also called a Light Dependant Resistor (LDR)– it’s a variable resistor whose resistance changes based on the amount of light hitting it.
 
 WARNING!
